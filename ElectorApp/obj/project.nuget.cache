@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7gqItyon68U=",
+  "success": true,
+  "projectFilePath": "C:\\windy\\ElectorApp\\ElectorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hsunn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\hsunn\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\hsunn\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
