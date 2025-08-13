@@ -99,6 +99,7 @@ Lưu trữ các lựa chọn của từng cuộc bình chọn
 | ID | INT (PK, Identity) | ID duy nhất của lựa chọn |
 | PollID | INT (FK) | Liên kết đến cuộc bình chọn |
 | OptionText | NVARCHAR(255) | Nội dung lựa chọn |
+| ImageUrl | NVARCHAR(255) | Link ảnh |
 
 ### Bảng Votes
 Lưu trữ các lượt bình chọn
@@ -247,5 +248,6 @@ Dự án này được phát hành dưới giấy phép MIT. Xem file `LICENSE` 
 ---
 
 ⭐ **Nếu dự án hữu ích, hãy để lại một star trên GitHub!** ⭐
+
 
 
