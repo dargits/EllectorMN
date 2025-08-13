@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\windy\\ElectorApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\utils\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:utils\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\sercvices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:sercvices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +54,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Forms\\Login.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:59:01.953Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\User\\User.cs",
+              "RelativeDocumentMoniker": "Forms\\User\\User.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\User\\User.cs",
+              "RelativeToolTip": "Forms\\User\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:52:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SessionManager.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Utils\\SessionManager.cs",
               "RelativeDocumentMoniker": "Utils\\SessionManager.cs",
@@ -54,12 +87,11 @@
               "RelativeToolTip": "Utils\\SessionManager.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T06:28:15.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T06:28:15.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "App.config",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -67,12 +99,11 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-13T05:57:24.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T05:57:24.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Sercvices\\AuthService.cs",
               "RelativeDocumentMoniker": "Sercvices\\AuthService.cs",
@@ -80,12 +111,11 @@
               "RelativeToolTip": "Sercvices\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T05:38:45.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T05:38:45.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
@@ -93,12 +123,11 @@
               "RelativeToolTip": "Repository\\UserRepository.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAiwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T05:35:40.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T05:35:40.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Connection.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Utils\\Connection.cs",
               "RelativeDocumentMoniker": "Utils\\Connection.cs",
@@ -106,18 +135,17 @@
               "RelativeToolTip": "Utils\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T05:32:33.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T05:32:33.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\windy\\ElectorApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA7wBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T05:26:47.715Z",
               "EditorCaption": ""
