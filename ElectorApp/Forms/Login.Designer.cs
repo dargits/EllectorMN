@@ -33,15 +33,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             pictureBox1 = new PictureBox();
             contextMenuStrip1 = new ContextMenuStrip(components);
-            textBox1 = new TextBox();
+            account = new TextBox();
             linkLabel_Register = new LinkLabel();
             label2 = new Label();
             button_Login = new Button();
             label3 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
-            textBox2 = new TextBox();
+            password = new TextBox();
             label1 = new Label();
+            message = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -49,7 +50,6 @@
             // 
             // pictureBox1
             // 
-          
             pictureBox1.Location = new Point(389, 98);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(144, 144);
@@ -63,13 +63,13 @@
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
             // 
-            // textBox1
+            // account
             // 
-            textBox1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(501, 299);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(386, 47);
-            textBox1.TabIndex = 3;
+            account.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            account.Location = new Point(501, 299);
+            account.Name = "account";
+            account.Size = new Size(386, 47);
+            account.TabIndex = 3;
             // 
             // linkLabel_Register
             // 
@@ -104,6 +104,7 @@
             button_Login.TabIndex = 6;
             button_Login.Text = "Đăng Nhập";
             button_Login.UseVisualStyleBackColor = false;
+            button_Login.Click += click_login;
             // 
             // label3
             // 
@@ -117,7 +118,6 @@
             // 
             // pictureBox2
             // 
-           
             pictureBox2.Location = new Point(449, 299);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(50, 47);
@@ -127,7 +127,6 @@
             // 
             // pictureBox3
             // 
-           
             pictureBox3.Location = new Point(449, 384);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(50, 47);
@@ -135,14 +134,14 @@
             pictureBox3.TabIndex = 10;
             pictureBox3.TabStop = false;
             // 
-            // textBox2
+            // password
             // 
-            textBox2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(501, 384);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(386, 47);
-            textBox2.TabIndex = 11;
-            textBox2.UseSystemPasswordChar = true;
+            password.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            password.Location = new Point(501, 384);
+            password.Name = "password";
+            password.Size = new Size(386, 47);
+            password.TabIndex = 11;
+            password.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -154,20 +153,31 @@
             label1.TabIndex = 12;
             label1.Text = "byNSS";
             // 
+            // message
+            // 
+            message.AutoSize = true;
+            message.Font = new Font("Segoe UI", 10.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            message.ForeColor = Color.Red;
+            message.Location = new Point(518, 262);
+            message.Name = "message";
+            message.Size = new Size(0, 23);
+            message.TabIndex = 13;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1332, 853);
+            Controls.Add(message);
             Controls.Add(label1);
-            Controls.Add(textBox2);
+            Controls.Add(password);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(label3);
             Controls.Add(button_Login);
             Controls.Add(label2);
             Controls.Add(linkLabel_Register);
-            Controls.Add(textBox1);
+            Controls.Add(account);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -175,6 +185,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ElectorAPP";
+            Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -186,14 +197,15 @@
 
         private PictureBox pictureBox1;
         private ContextMenuStrip contextMenuStrip1;
-        private TextBox textBox1;
+        private TextBox account;
         private LinkLabel linkLabel_Register;
         private Label label2;
         private Button button_Login;
         private Label label3;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private TextBox textBox2;
+        private TextBox password;
         private Label label1;
+        private Label message;
     }
 }

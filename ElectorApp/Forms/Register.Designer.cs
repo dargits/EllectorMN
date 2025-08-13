@@ -32,22 +32,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             pictureBox1 = new PictureBox();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            account = new TextBox();
+            password = new TextBox();
+            repassword = new TextBox();
+            name = new TextBox();
             label1 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             button_backLogin = new Button();
             button1 = new Button();
+            message = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-           
             pictureBox1.Location = new Point(580, 47);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(184, 174);
@@ -66,37 +66,37 @@
             label2.TabIndex = 2;
             label2.Text = "Tên Tài Khoản:";
             // 
-            // textBox1
+            // account
             // 
-            textBox1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(560, 277);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(431, 47);
-            textBox1.TabIndex = 3;
+            account.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            account.Location = new Point(560, 277);
+            account.Name = "account";
+            account.Size = new Size(431, 47);
+            account.TabIndex = 3;
             // 
-            // textBox2
+            // password
             // 
-            textBox2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(560, 353);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(431, 47);
-            textBox2.TabIndex = 5;
+            password.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            password.Location = new Point(560, 353);
+            password.Name = "password";
+            password.Size = new Size(431, 47);
+            password.TabIndex = 5;
             // 
-            // textBox3
+            // repassword
             // 
-            textBox3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(560, 435);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(431, 47);
-            textBox3.TabIndex = 6;
+            repassword.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            repassword.Location = new Point(560, 435);
+            repassword.Name = "repassword";
+            repassword.Size = new Size(431, 47);
+            repassword.TabIndex = 6;
             // 
-            // textBox4
+            // name
             // 
-            textBox4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(560, 511);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(431, 47);
-            textBox4.TabIndex = 7;
+            name.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            name.Location = new Point(560, 511);
+            name.Name = "name";
+            name.Size = new Size(431, 47);
+            name.TabIndex = 7;
             // 
             // label1
             // 
@@ -165,22 +165,34 @@
             button1.TabIndex = 15;
             button1.Text = "Đăng Ký";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += click_Register;
+            // 
+            // message
+            // 
+            message.AutoSize = true;
+            message.Font = new Font("Segoe UI", 10.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            message.ForeColor = Color.Red;
+            message.Location = new Point(601, 603);
+            message.Name = "message";
+            message.Size = new Size(0, 23);
+            message.TabIndex = 16;
             // 
             // Register
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1332, 853);
+            Controls.Add(message);
             Controls.Add(button1);
             Controls.Add(button_backLogin);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label1);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(name);
+            Controls.Add(repassword);
+            Controls.Add(password);
+            Controls.Add(account);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -198,15 +210,16 @@
 
         private PictureBox pictureBox1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox account;
+        private TextBox password;
+        private TextBox repassword;
+        private TextBox name;
         private Label label1;
         private Label label3;
         private Label label4;
         private Label label5;
         private Button button1;
         private Button button_backLogin;
+        private Label message;
     }
 }

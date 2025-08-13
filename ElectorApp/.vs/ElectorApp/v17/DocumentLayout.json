@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\windy\\ElectorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\sercvices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:sercvices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Sercvices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Sercvices\\AuthService.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Sercvices\\AuthService.cs",
+              "RelativeToolTip": "Sercvices\\AuthService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:53:48.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Forms\\Register.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Register.cs",
+              "RelativeToolTip": "Forms\\Register.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:48:25.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Forms\\Register.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Register.cs [Design]",
+              "RelativeToolTip": "Forms\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:47:56.985Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
+              "Title": "Login.cs",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Forms\\Login.cs [Design]",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Login.cs",
+              "RelativeToolTip": "Forms\\Login.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA7wEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T10:22:00.956Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-13T10:41:48.034Z",
+              "EditorCaption": ""
             }
           ]
         }

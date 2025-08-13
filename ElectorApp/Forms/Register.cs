@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ElectorApp.Services.AuthService.cs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,11 +18,47 @@ namespace ElectorApp.Forms
             InitializeComponent();
         }
 
+        public async void click_Register(object sender, EventArgs e)
+        {
+            string Account = account.Text;
+            string Password = password.Text;
+            string Repassword = repassword.Text;
+            string Name = name.Text;
+
+            if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Password) ||
+                string.IsNullOrEmpty(Repassword) || string.IsNullOrEmpty(Name))
+                {
+                message.Text = "Vui lòng nhập đủ các trường.";
+                await Task.Delay(3000);
+                message.ForeColor = Color.Red;
+                message.Text = "";
+                return;
+            }
+            AuthService AuthService = new AuthService();
+
+            string mess = AuthService.createAccount(Account, Password,Repassword,Name);
+            if (mess.Equals("Tạo tài khoản thành công."))
+                message.ForeColor = Color.Green;
+            else
+                message.ForeColor = Color.Red;
+
+            message.Text = mess;
+            await Task.Delay(3000);
+            message.Text = "";
+
+        }
+
         private void button_backLogin_Click(object sender, EventArgs e)
         {
             Login loginForm = new Login();
             loginForm.Show();
             this.Close();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Đảm bảo rằng ứng dụng thoát hoàn toàn
+            Application.Exit();
         }
     }
 }
