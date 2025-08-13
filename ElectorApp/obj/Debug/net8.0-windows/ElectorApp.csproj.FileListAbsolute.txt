@@ -5,7 +5,6 @@ C:\windy\ElectorApp\bin\Debug\net8.0-windows\ElectorApp.runtimeconfig.json
 C:\windy\ElectorApp\bin\Debug\net8.0-windows\ElectorApp.dll
 C:\windy\ElectorApp\bin\Debug\net8.0-windows\ElectorApp.pdb
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.csproj.AssemblyReference.cache
-C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Form1.resources
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.csproj.GenerateResource.cache
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.AssemblyInfoInputs.cache
@@ -20,3 +19,6 @@ C:\windy\ElectorApp\obj\Debug\net8.0-windows\ref\ElectorApp.dll
 C:\windy\ElectorApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\windy\ElectorApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
 C:\windy\ElectorApp\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.sourcelink.json
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Login.resources
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Properties.Resources.resources

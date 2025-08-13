@@ -1,3 +1,5 @@
+﻿using System.Data.Common;
+
 namespace ElectorApp
 {
     internal static class Program
@@ -10,9 +12,13 @@ namespace ElectorApp
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            Utils.Connection.GetMySqlConnection();
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+
+            // Replace ApplicationConfiguration.Initialize() with Application.EnableVisualStyles() and Application.SetCompatibleTextRenderingDefault(false)
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Forms.Login());
         }
     }
+
+
 }
