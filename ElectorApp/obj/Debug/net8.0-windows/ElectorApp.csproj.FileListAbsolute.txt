@@ -23,3 +23,5 @@ C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.sourcelink.json
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Login.resources
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Properties.Resources.resources
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Register.resources
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.User.Home.resources
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Admin.Home.resources

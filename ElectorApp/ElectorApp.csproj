@@ -27,9 +27,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Forms\Admin\" />
-    <Folder Include="Forms\User\" />
-  </ItemGroup>
-
 </Project>

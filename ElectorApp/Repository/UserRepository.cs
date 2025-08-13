@@ -14,7 +14,7 @@ namespace ElectorApp.Repository
 
         private string FindUserByAccount = "SELECT * FROM Users WHERE Account = @Account;";
 
-        private string FindUSerById = "SELECT * FROM Users WHERE UserId = @UserId;";
+        private string FindUSerById = "SELECT * FROM Users WHERE ID = @ID;";
 
         private string CreateAccount = "INSERT INTO Users (Account, Password, IsAdmin, FullName)" +
             " VALUES (@Account, @Password, @IsAdmin, @FullName);";
@@ -107,7 +107,7 @@ namespace ElectorApp.Repository
                 {
                     command.CommandText = sql;
                     // Thêm tham số để tránh SQL Injection
-                    command.Parameters.AddWithValue("@UserId", Id);
+                    command.Parameters.AddWithValue("@ID", Id);
                     // Thực thi câu lệnh và nhận MySqlDataReader để đọc dữ liệu
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {

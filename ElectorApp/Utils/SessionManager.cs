@@ -8,11 +8,11 @@ namespace ElectorApp.Utils
 {
     internal class SessionManager
     {
-        private static bool isLoggedIn = false;
-        private static long userId = 0;
-        private static bool isAdmin = false;
+        public static bool isLoggedIn = false;
+        public static int userId = 0;
+        public static bool isAdmin = false;
 
-        public static void Login(long userId, bool isAdmin)
+        public static void Login(int userId, bool isAdmin)
         {
             SessionManager.userId = userId;
             SessionManager.isAdmin = isAdmin;

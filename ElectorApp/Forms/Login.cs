@@ -43,14 +43,29 @@ namespace ElectorApp.Forms
 
             string mess = AuthService.Login(Account, Password);
             if (mess.Equals("Đăng Nhập Thành Công."))
+            {
                 message.ForeColor = Color.Green;
+                
+                if (Utils.SessionManager.isAdmin)
+                {
+                    Form Admin_Home = new Admin.Home();
+                    Admin_Home.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Form User_Home = new User.Home();
+                    User_Home.Show();
+                    this.Hide();
+                }
+            }
             else
                 message.ForeColor = Color.Red;
 
             message.Text = mess;
             await Task.Delay(3000);
             message.Text = "";
-
+        
         }
         private void Login_Load(object sender, EventArgs e)
         {
