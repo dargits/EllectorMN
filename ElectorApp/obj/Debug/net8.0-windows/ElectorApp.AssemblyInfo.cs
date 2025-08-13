@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectorApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4f6e99ba9f706eccf02d24d29923f92bdda65c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbf91bff0066aba8ca17b44a56ab001e2a044940")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectorApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectorApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

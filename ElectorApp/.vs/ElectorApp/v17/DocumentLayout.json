@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\windy\\ElectorApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|c:\\windy\\electorapp\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -27,6 +31,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Forms\\Register.cs",
+              "ToolTip": "C:\\windy\\ElectorApp\\Forms\\Register.cs [Design]",
+              "RelativeToolTip": "Forms\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:44:09.154Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\windy\\ElectorApp\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "Forms\\Login.cs",
