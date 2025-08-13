@@ -1,3 +1,4 @@
+
 ﻿namespace ElectorApp.Forms
 {
     partial class Login
@@ -116,7 +117,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.user1;
+            pictureBox2.Image = Properties.Resources.user;
             pictureBox2.Location = new Point(449, 299);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(50, 47);

@@ -1,3 +1,4 @@
+
 ﻿namespace ElectorApp.Forms
 {
     partial class Register
@@ -46,7 +47,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.user;
+            pictureBox1.Image = Properties.Resources.user1;
             pictureBox1.Location = new Point(580, 47);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(184, 174);
