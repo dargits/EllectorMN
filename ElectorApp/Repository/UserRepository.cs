@@ -16,13 +16,13 @@ namespace ElectorApp.Repository
 
         private string FindUSerById = "SELECT * FROM Users WHERE UserId = @UserId;";
 
-        private string CreateAccount = "INSERT INTO Users (Account, Password, IsAdmin, Name)" +
-            " VALUES (@Account, @Password, @IsAdmin, @Name);";
+        private string CreateAccount = "INSERT INTO Users (Account, Password, IsAdmin, FullName)" +
+            " VALUES (@Account, @Password, @IsAdmin, @FullName);";
 
         private string ExitByAccount = "SELECT COUNT(*) FROM Users WHERE Account = @Account;";
 
 
-        public int createAccount(string account, string password, String name)
+        public int createAccount(string account, string password, String fullname)
         {
             using (MySqlConnection connection = Utils.Connection.GetConnection())
             {
@@ -32,7 +32,7 @@ namespace ElectorApp.Repository
                 {
                     command.CommandText = query;
 
-                    command.Parameters.AddWithValue("@Name", name);
+                    command.Parameters.AddWithValue("@FullName", fullname);
                     command.Parameters.AddWithValue("@Account", account);
                     command.Parameters.AddWithValue("@Password", password);
                     command.Parameters.AddWithValue("@IsAdmin", false);
@@ -80,11 +80,11 @@ namespace ElectorApp.Repository
                         {
                             string Acccount = reader.GetString("Account");
                             bool IsAdmin = reader.GetBoolean("IsAdmin");
-                            string Name = reader.GetString("Name");
+                            string FullName = reader.GetString("FullName");
                             int ID = reader.GetInt32("ID");
                             string Password = reader.GetString("Password");
 
-                            return new User(ID, Acccount, IsAdmin, Name, Password);
+                            return new User(ID, Acccount, IsAdmin, FullName, Password);
 
                         }
                         return null;
@@ -115,10 +115,10 @@ namespace ElectorApp.Repository
                         {
                             string Acccount = reader.GetString("Account");
                             bool IsAdmin = reader.GetBoolean("IsAdmin");
-                            string Name = reader.GetString("Name");
+                            string FullName = reader.GetString("FullName");
                             string Password = reader.GetString("Password");
 
-                            return new User(Id, Acccount, IsAdmin, Name, Password);
+                            return new User(Id, Acccount, IsAdmin, FullName, Password);
 
                         }
                         return null;

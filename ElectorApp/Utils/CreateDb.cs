@@ -16,7 +16,7 @@ namespace ElectorApp.Utils
                 -- Tạo bảng Users
                 CREATE TABLE IF NOT EXISTS Users (
                     ID INT PRIMARY KEY AUTO_INCREMENT,
-                    Username VARCHAR(50) NOT NULL UNIQUE,
+                    Account VARCHAR(50) NOT NULL UNIQUE,
                     Password VARCHAR(255) NOT NULL,
                     IsAdmin TINYINT(1) DEFAULT 0,
                     FullName VARCHAR(100) NULL,
@@ -29,7 +29,8 @@ namespace ElectorApp.Utils
                     Title VARCHAR(255) NOT NULL,
                     Description TEXT NULL,
                     CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    IsActive TINYINT(1) DEFAULT 1
+                    IsActive TINYINT(1) DEFAULT 1,
+                    UserID INT NOT NULL 
                 );
 
                 -- Tạo bảng Options
@@ -37,7 +38,8 @@ namespace ElectorApp.Utils
                     ID INT PRIMARY KEY AUTO_INCREMENT,
                     PollID INT NOT NULL,
                     OptionText VARCHAR(255) NOT NULL,
-                    FOREIGN KEY (PollID) REFERENCES Polls(ID) ON DELETE CASCADE ON UPDATE CASCADE
+                    FOREIGN KEY (PollID) REFERENCES Polls(ID) ON DELETE CASCADE ON UPDATE CASCADE,
+                    ImageUrl VARCHAR(255)
                 );
 
                 -- Tạo bảng Votes

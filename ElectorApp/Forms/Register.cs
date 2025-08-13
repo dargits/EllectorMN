@@ -52,7 +52,7 @@ namespace ElectorApp.Forms
         {
             Login loginForm = new Login();
             loginForm.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Close(object sender, FormClosingEventArgs e)

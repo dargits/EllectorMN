@@ -12,16 +12,16 @@ public class User
     public string Account { get; set; }
     public bool IsAdmin { get; set; }
     public string Password { get; set; }
-    public String Name { get; set; }
+    public String FullName { get; set; }
     public DateTime CreatedAt { get; set; }
     public User() { }
 
-    public User(int iD, string account, bool isAdmin, String userName, string password)
+    public User(int iD, string account, bool isAdmin, String fullName, string password)
     {
         ID = iD;
         Account = account;
         IsAdmin = isAdmin;
-        Name = userName;
+        FullName = fullName;
         Password = password;
     }
 }

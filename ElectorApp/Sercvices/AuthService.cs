@@ -14,6 +14,12 @@ namespace ElectorApp.Services.AuthService.cs
     {
         private UserRepository userRepository = new UserRepository();
 
+        public AuthService() { }
+
+        public AuthService(UserRepository userRepository)
+        {
+            this.userRepository = userRepository;
+        }
 
         public string createAccount(string account, string password, string repassword, string name)
         {

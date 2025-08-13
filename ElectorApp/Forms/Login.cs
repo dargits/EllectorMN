@@ -31,7 +31,7 @@ namespace ElectorApp.Forms
 
             if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Password))
             {
-                message.Text = "Vui lòng nhập đủ các trường có đánh dấu '*'.";
+                message.Text = "Vui lòng nhập đủ các trường.";
 
                 await Task.Delay(3000);
                 message.ForeColor = Color.Red;
