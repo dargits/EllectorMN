@@ -22,3 +22,4 @@ C:\windy\ElectorApp\bin\Debug\net8.0-windows\MySqlConnector.dll
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.sourcelink.json
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Login.resources
 C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Properties.Resources.resources
+C:\windy\ElectorApp\obj\Debug\net8.0-windows\ElectorApp.Forms.Register.resources

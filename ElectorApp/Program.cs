@@ -12,8 +12,8 @@ namespace ElectorApp
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            Utils.CreateDb.create();
 
-            // Replace ApplicationConfiguration.Initialize() with Application.EnableVisualStyles() and Application.SetCompatibleTextRenderingDefault(false)
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Forms.Login());

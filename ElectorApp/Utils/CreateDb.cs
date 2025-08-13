@@ -13,16 +13,46 @@ namespace ElectorApp.Utils
         {
             // Các câu lệnh SQL để tạo các bảng cho ứng dụng bình chọn
             string sqlScript = @"
-                -- Tạo bảng Users để lưu trữ thông tin người dùng
+                -- Tạo bảng Users
                 CREATE TABLE IF NOT EXISTS Users (
                     ID INT PRIMARY KEY AUTO_INCREMENT,
-                    Account VARCHAR(50) NOT NULL UNIQUE,
-                    Password VARCHAR(255) NOT NULL, -- Mật khẩu được lưu dưới dạng mã băm để bảo mật
-                    IsAdmin BOOLEAN DEFAULT FALSE, -- TRUE cho quản trị viên, FALSE cho người dùng thông thường
-                    Name VARCHAR(100) NULL,
-                    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+                    Username VARCHAR(50) NOT NULL UNIQUE,
+                    Password VARCHAR(255) NOT NULL,
+                    IsAdmin TINYINT(1) DEFAULT 0,
+                    FullName VARCHAR(100) NULL,
+                    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                );
+
+                -- Tạo bảng Polls
+                CREATE TABLE IF NOT EXISTS Polls (
+                    ID INT PRIMARY KEY AUTO_INCREMENT,
+                    Title VARCHAR(255) NOT NULL,
+                    Description TEXT NULL,
+                    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    IsActive TINYINT(1) DEFAULT 1
+                );
+
+                -- Tạo bảng Options
+                CREATE TABLE IF NOT EXISTS Options (
+                    ID INT PRIMARY KEY AUTO_INCREMENT,
+                    PollID INT NOT NULL,
+                    OptionText VARCHAR(255) NOT NULL,
+                    FOREIGN KEY (PollID) REFERENCES Polls(ID) ON DELETE CASCADE ON UPDATE CASCADE
+                );
+
+                -- Tạo bảng Votes
+                CREATE TABLE IF NOT EXISTS Votes (
+                    ID INT PRIMARY KEY AUTO_INCREMENT,
+                    PollID INT NOT NULL,
+                    OptionID INT NOT NULL,
+                    UserID INT NOT NULL,
+                    VotedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (PollID) REFERENCES Polls(ID) ON DELETE CASCADE ON UPDATE CASCADE,
+                    FOREIGN KEY (OptionID) REFERENCES Options(ID) ON DELETE CASCADE ON UPDATE CASCADE,
+                    FOREIGN KEY (UserID) REFERENCES Users(ID) ON DELETE CASCADE ON UPDATE CASCADE
                 );
             ";
+
 
             try
             {
