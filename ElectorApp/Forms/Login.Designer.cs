@@ -49,7 +49,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.z6899139636151_781074cda4335631f885e8689de3c4ed;
+          
             pictureBox1.Location = new Point(389, 98);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(144, 144);
@@ -117,7 +117,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.user1;
+           
             pictureBox2.Location = new Point(449, 299);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(50, 47);
@@ -127,7 +127,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources._lock;
+           
             pictureBox3.Location = new Point(449, 384);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(50, 47);
