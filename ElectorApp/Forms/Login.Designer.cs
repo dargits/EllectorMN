@@ -184,10 +184,12 @@
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
-            MinimizeBox = false;
+            MaximumSize = new Size(1350, 900);
+            MinimumSize = new Size(1350, 900);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ElectorAPP";
+            FormClosing += Close;
             Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

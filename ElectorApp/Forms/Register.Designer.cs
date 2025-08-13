@@ -202,6 +202,7 @@
             Name = "Register";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng Ký";
+            FormClosing += Close;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

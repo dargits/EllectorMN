@@ -21,8 +21,8 @@ namespace ElectorApp.Forms
         public async void click_Register(object sender, EventArgs e)
         {
             string Account = account.Text;
-            string Password = password.Text;
-            string Repassword = repassword.Text;
+            string Password = password.Text.Replace(" ", "");
+            string Repassword = repassword.Text.Replace(" ", "");
             string Name = name.Text;
 
             if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Password) ||
@@ -55,9 +55,8 @@ namespace ElectorApp.Forms
             this.Close();
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void Close(object sender, FormClosingEventArgs e)
         {
-            // Đảm bảo rằng ứng dụng thoát hoàn toàn
             Application.Exit();
         }
     }

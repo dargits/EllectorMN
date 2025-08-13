@@ -26,8 +26,8 @@ namespace ElectorApp.Forms
         }
         private async void click_login(object sender, EventArgs e)
         {
-            string Account = account.Text.Trim();
-            string Password = password.Text.Trim();
+            string Account = account.Text.Replace(" ", "");
+            string Password = password.Text.Replace(" ", "");
 
             if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Password))
             {
@@ -52,16 +52,15 @@ namespace ElectorApp.Forms
             message.Text = "";
 
         }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // Đảm bảo rằng ứng dụng thoát hoàn toàn
-            Application.Exit();
-        }
-
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+
+        private void Close(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
