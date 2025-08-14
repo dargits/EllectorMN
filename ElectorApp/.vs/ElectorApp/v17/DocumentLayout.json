@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\user\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|E:\\GitClone\\EllectorMN\\ElectorApp\\forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -58,8 +58,7 @@
               "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs [Design]",
               "RelativeToolTip": "Forms\\Admin\\HomeAd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T09:16:58.602Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-14T09:16:58.602Z"
             },
             {
               "$type": "Document",
