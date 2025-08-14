@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "E:\\GitClone\\EllectorMN\\ElectorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\user\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\user\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\user\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\user\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\sercvices\\pollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:sercvices\\pollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|solutionrelative:forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D57C60F-8344-480B-A9C6-56D753EA325D}|ElectorApp.csproj|e:\\gitclone\\ellectormn\\electorapp\\forms\\admin\\homead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,75 +38,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "HomeAd.cs",
               "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs",
               "RelativeDocumentMoniker": "Forms\\Admin\\HomeAd.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs*",
-              "RelativeToolTip": "Forms\\Admin\\HomeAd.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs",
+              "RelativeToolTip": "Forms\\Admin\\HomeAd.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T09:19:41.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeAd.cs [Design]",
               "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs",
               "RelativeDocumentMoniker": "Forms\\Admin\\HomeAd.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs [Design]*",
-              "RelativeToolTip": "Forms\\Admin\\HomeAd.cs [Design]*",
+              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Admin\\HomeAd.cs [Design]",
+              "RelativeToolTip": "Forms\\Admin\\HomeAd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T09:16:58.602Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PollService.cs",
-              "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Sercvices\\PollService.cs",
-              "RelativeDocumentMoniker": "Sercvices\\PollService.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Sercvices\\PollService.cs",
-              "RelativeToolTip": "Sercvices\\PollService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T09:15:28.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Register.cs",
-              "RelativeDocumentMoniker": "Forms\\Register.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\Register.cs [Design]",
-              "RelativeToolTip": "Forms\\Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T09:07:41.276Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeUser.cs",
-              "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\User\\HomeUser.cs",
-              "RelativeDocumentMoniker": "Forms\\User\\HomeUser.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\User\\HomeUser.cs*",
-              "RelativeToolTip": "Forms\\User\\HomeUser.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T09:05:09.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeUser.cs [Design]",
               "DocumentMoniker": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\User\\HomeUser.cs",
               "RelativeDocumentMoniker": "Forms\\User\\HomeUser.cs",
-              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\User\\HomeUser.cs [Design]*",
-              "RelativeToolTip": "Forms\\User\\HomeUser.cs [Design]*",
+              "ToolTip": "E:\\GitClone\\EllectorMN\\ElectorApp\\Forms\\User\\HomeUser.cs [Design]",
+              "RelativeToolTip": "Forms\\User\\HomeUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T08:46:27.037Z",
               "EditorCaption": " [Design]"
