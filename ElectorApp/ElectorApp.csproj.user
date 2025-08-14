@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\Admin\Home.cs">
+    <Compile Update="Forms\Admin\HomeAd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Login.cs">
@@ -10,7 +10,7 @@
     <Compile Update="Forms\Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\User\Home.cs">
+    <Compile Update="Forms\User\HomeUser.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

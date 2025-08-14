@@ -82,6 +82,7 @@
             password.Name = "password";
             password.Size = new Size(431, 47);
             password.TabIndex = 5;
+            password.UseSystemPasswordChar = true;
             // 
             // repassword
             // 
@@ -90,6 +91,7 @@
             repassword.Name = "repassword";
             repassword.Size = new Size(431, 47);
             repassword.TabIndex = 6;
+            repassword.UseSystemPasswordChar = true;
             // 
             // name
             // 
