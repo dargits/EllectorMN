@@ -93,6 +93,16 @@ namespace ElectorApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap vote {
+            get {
+                object obj = ResourceManager.GetObject("vote", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap z6899139636151_781074cda4335631f885e8689de3c4ed {
             get {
                 object obj = ResourceManager.GetObject("z6899139636151_781074cda4335631f885e8689de3c4ed", resourceCulture);

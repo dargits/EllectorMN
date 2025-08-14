@@ -27,16 +27,21 @@ namespace ElectorApp.Forms
 
             if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Password) ||
                 string.IsNullOrEmpty(Repassword) || string.IsNullOrEmpty(Name))
-                {
+            {
                 message.Text = "Vui lòng nhập đủ các trường.";
                 await Task.Delay(3000);
                 message.ForeColor = Color.Red;
                 message.Text = "";
                 return;
             }
+            if (Name.Length > 15)
+            {
+                message.Text = "Vui lòng nhập tên tối đa 15 kí tự.";
+                return;
+            }
             AuthService AuthService = new AuthService();
 
-            string mess = AuthService.createAccount(Account, Password,Repassword,Name);
+            string mess = AuthService.createAccount(Account, Password, Repassword, Name);
             if (mess.Equals("Tạo tài khoản thành công."))
                 message.ForeColor = Color.Green;
             else
@@ -58,6 +63,11 @@ namespace ElectorApp.Forms
         private void Close(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

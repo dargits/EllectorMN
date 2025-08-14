@@ -48,13 +48,13 @@ namespace ElectorApp.Forms
                 
                 if (Utils.SessionManager.isAdmin)
                 {
-                    Form Admin_Home = new Admin.Home();
+                    Form Admin_Home = new Admin.HomeAd();
                     Admin_Home.Show();
                     this.Hide();
                 }
                 else
                 {
-                    Form User_Home = new User.Home();
+                    Form User_Home = new User.HomeUser();
                     User_Home.Show();
                     this.Hide();
                 }
