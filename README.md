@@ -137,7 +137,7 @@ Lưu trữ các lượt bình chọn
    -- Tạo bảng Users
    CREATE TABLE Users (
        ID INT PRIMARY KEY IDENTITY(1,1),
-       Username NVARCHAR(50) NOT NULL UNIQUE,
+       Account NVARCHAR(50) NOT NULL UNIQUE,
        Password NVARCHAR(255) NOT NULL,
        IsAdmin BIT DEFAULT 0,
        FullName NVARCHAR(100) NULL,
@@ -150,7 +150,8 @@ Lưu trữ các lượt bình chọn
        Title NVARCHAR(255) NOT NULL,
        Description NVARCHAR(MAX) NULL,
        CreatedAt DATETIME DEFAULT GETDATE(),
-       IsActive BIT DEFAULT 1
+       IsActive BIT DEFAULT 1,
+       UserID INT NOT NULL
    );
 
    -- Tạo bảng Options
@@ -248,6 +249,7 @@ Dự án này được phát hành dưới giấy phép MIT. Xem file `LICENSE` 
 ---
 
 ⭐ **Nếu dự án hữu ích, hãy để lại một star trên GitHub!** ⭐
+
 
 
 
